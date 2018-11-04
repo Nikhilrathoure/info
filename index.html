@@ -1,19 +1,74 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
 <head>
-    <title>
-        Info
+    <title>Main
     </title>
-</head>
-<body style="background:url(images/bck.gif);background-repeat: no-repeat;background-size: cover" topmargin="50px" leftmargin="50px" rightmargin="20px" bottommargin="50">
-    
-   <center>
-        <h1><i>         Hi!</i></h1>
-        <a href="1s.html"><img src="images/wl.jpg">
-        </a><br>
+    <style>
+        .bar{
+            display:flex;
+    justify-content: center;
+    position:sticky;
+    top:0px;
+
+background-color: black;
+color:white;
+text-decoration: none;
+
+}
+ .bar li{
+     margin-left:5rem;
+     margin-right:10rem;
+    display: inline-block;
+     text-decoration: none;
+
+}
+
+
+.bar a{
+    color:white;
+}
+.bar a:hover{
+    color:rgb(109, 177, 240);
+}
         
-   <h3><i>click above</i></h3>
-   <img src="images/min4.jpg" height="177" width="284">
-   </center>   
-   </body>
-   </html>
+        #ud,#bd
+        {
+            
+            height:5rem;
+            width:20rem;
+            clear:both;
+        }
+        #m
+        {
+            height:20rem;
+
+        }
+    </style>
+</head>
+<body>
+    
+        <ul class="bar">
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                
+                <a href="about.html">About</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a></li>
+        </ul>
+    
+    <center>
+    <img src="Images/dsgnu.jpg" id="ud"><br>
+    <img src="Images/main.jpg" id="m"><br>
+    <img src="Images/dsgnb.jpg" id="bd"><br>
+    <h2 id="h2">
+        This Webpage contains info about<br>
+    </h2>
+    <h1 id="h1">
+            Nikhil Rathoure
+    </h1>
+</center>
+
+</body>
+</html>
